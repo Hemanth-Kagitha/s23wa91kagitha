@@ -12,7 +12,7 @@ let o4=Math.pow(x,y);
 let o1=Math.imul(x,y);
 let o2=Math.log(y,x);
 let o3=Math.log10(y);
-  res.send('Math.pow() applied to '+x+' and '+y+' is ' +o4+'\nMath.imul() applied to '+x+' and '+y+' is ' +o1+"<br>" +'Math.log() applied to '+y+' and '+x+' is '+o2+"<br>"+'Math.log10()  applied to '+y+' is'+o3); 
+  res.send('Math.pow() applied to '+x+' and '+y+' is ' +o4+'<br>Math.imul() applied to '+x+' and '+y+' is ' +o1+"<br>" +'Math.log() applied to '+y+' and '+x+' is '+o2+"<br>"+'Math.log10()  applied to '+y+' is'+o3); 
 }
 else{
 
@@ -23,7 +23,7 @@ else{
   let o2=Math.log(y,x);
   let o3=Math.log10(y);
 
-  res.send('Math.pow() applied to '+x+' and '+y+' is ' +o4+'\nMath.imul() applied to '+x+' and '+y+' is ' +o1+"<br>" +'Math.log() applied to '+y+' and '+x+' is '+o2+"<br>"+'Math.log10()  applied to '+y+' is'+o3); 
+  res.send('Math.pow() applied to '+x+' and '+y+' is ' +o4+'<br>Math.imul() applied to '+x+' and '+y+' is ' +o1+"<br>" +'Math.log() applied to '+y+' and '+x+' is '+o2+"<br>"+'Math.log10()  applied to '+y+' is'+o3); 
 }
 });
 
